@@ -10,7 +10,7 @@ const blogPostSchema = mongoose.Schema({
   created: {type: Date, default: Date.now}
 },
   {
-   collection: 'blogs'
+   collection: 'BlogPosts'
   }
 );
 
